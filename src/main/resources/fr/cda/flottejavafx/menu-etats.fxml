@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="319.0" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.cda.flottejavafx.Controllers.EtatController">
+   <children>
+      <Button mnemonicParsing="false" text="Générer PDF et envoi courriel" />
+      <Button mnemonicParsing="false" text="Export salariés et réservations" />
+      <Button mnemonicParsing="false" text="Lire un fichier exporté" />
+      <Button mnemonicParsing="false" text="Retour au menu précédent" />
+   </children>
+</VBox>

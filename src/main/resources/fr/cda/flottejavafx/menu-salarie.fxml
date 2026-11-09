@@ -12,5 +12,6 @@
       <Button mnemonicParsing="false" onAction="#onEnDeplacement" text="Véhicule en déplacement" />
       <TextField fx:id="formMatricule" maxWidth="150.0" promptText="Matricule salarié" />
       <Button mnemonicParsing="false" onAction="#onHistorique" text="Historique salarié" />
+      <Button mnemonicParsing="false" text="Retour" />
    </children>
 </VBox>

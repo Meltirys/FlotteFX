@@ -27,4 +27,19 @@ public class MenuController {
         salarieController.setResultTab(resultTab);
         menuField.getChildren().setAll(menuSalarie);
     }
+
+    @FXML
+    private void onVehiculeClick() throws IOException {
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fr/cda/flottejavafx/menu-vehicule.fxml"));
+        VBox menuVehicule = loader.load();
+        VehiculeController vehiculeController = loader.getController();
+        vehiculeController.setResultTab(resultTab);
+        menuField.getChildren().setAll(menuVehicule);
+    }
+
+    @FXML
+    private void onEtatClick() throws IOException {
+
+    }
 }

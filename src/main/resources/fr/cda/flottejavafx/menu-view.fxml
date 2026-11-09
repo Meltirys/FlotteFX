@@ -11,7 +11,7 @@
             <VBox fx:id="menuField" alignment="CENTER" prefHeight="400.0" prefWidth="319.0" spacing="20.0">
                <children>
                   <Label text="Menu Principal" />
-                  <Button mnemonicParsing="false" text="Véhicules" />
+                  <Button mnemonicParsing="false" onAction="#onVehiculeClick" text="Véhicules" />
                   <Button mnemonicParsing="false" onAction="#onSalarieClick" text="Salariés et Réservation" />
                   <Button mnemonicParsing="false" text="Etat et exports" />
                   <Button mnemonicParsing="false" text="Fermer" />
