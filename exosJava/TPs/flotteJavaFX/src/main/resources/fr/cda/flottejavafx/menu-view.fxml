@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.cda.flottejavafx.Controllers.MenuController">
+   <children>
+      <HBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <VBox fx:id="menuField" alignment="CENTER" prefHeight="400.0" prefWidth="319.0" spacing="20.0">
+               <children>
+                  <Label text="Menu Principal" />
+                  <Button mnemonicParsing="false" text="Véhicules" />
+                  <Button mnemonicParsing="false" onAction="#onSalarieClick" text="Salariés et Réservation" />
+                  <Button mnemonicParsing="false" text="Etat et exports" />
+                  <Button mnemonicParsing="false" text="Fermer" />
+               </children>
+            </VBox>
+            <TextFlow fx:id="resultTab" prefHeight="400.0" prefWidth="286.0" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
